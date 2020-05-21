@@ -1,0 +1,35 @@
+body {
+	background-color: #AACCDD;
+}
+.node circle {
+	fill: #fff;
+	stroke: Steelblue;
+	stroke-width : 1.5px;	
+}
+.node { font: 12px sans serif; }
+.link {
+	fill: none;
+	stroke: #FF0000;
+	stroke-width : 2px;	
+}
+#overlay{
+	position:absolute;
+	width: 300px;
+	padding:5px;
+	background-color: #fff;
+	opacity:0.8;
+	-webkit-border-radius:5px;
+	-moz-border-radius: 5px;
+	border-radius:5px;
+	-webkit-box-shadow:4px 4px 5px rgba(0,0,0,0.4);
+	-moz-box-shadow:4px 4px 5px rgba(0,0,0,0.4);
+	box-shadow:4px 4px 5px rgba(0,0,0,0.4);
+	pointer-events:none;	
+}
+#overlay.hidden{
+	display:none;
+}
+#overlay p {
+	margin: 0;
+	font-size:12px;
+}
