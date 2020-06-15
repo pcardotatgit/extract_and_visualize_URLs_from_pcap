@@ -2,7 +2,7 @@
 
 This visualization script displays a D3JS dendrogram which shows the relationship between a source IP address and all remote URLs this IP tried to connect.
 
-##Installation##
+## Installation ##
 
 git clone this repository anywhere into your hard drive.
 
@@ -24,11 +24,10 @@ And then open your browser to **http://{ web server IP address }:8888**.
 
 And normally you should see the D3JS dendogram graph.
 
-##Result##
+## Result ##
 
 <img src="./img/dendrogram_example-1.gif">
 
-##Credit##
+## Credit ##
 
 - https://www.youtube.com/watch?v=lS6o0oeiGNs
-- 
